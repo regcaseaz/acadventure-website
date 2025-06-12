@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acadventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-nav">
+            <img src="ACADVENTURE LOGO.png" alt="Acadventure Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <input type="text" class="header-search" placeholder="Search...">
+                <button class="header-login">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / Carousel Section -->
+    <section class="hero">
+        <div class="carousel">
+            <button class="carousel-btn prev">&#10094;</button>
+            <div class="carousel-images">
+                <img src="Carousel/Banner 1.png" alt="Banner 1" class="carousel-img active">
+                <img src="Carousel/Banner 2.png" alt="Banner 2" class="carousel-img">
+                <img src="Carousel/Banner 3.png" alt="Banner 3" class="carousel-img">
+                <div class="carousel-pagination">
+                    <div class="carousel-indicator active"></div>
+                    <div class="carousel-indicator"></div>
+                    <div class="carousel-indicator"></div>
+                </div>
+            </div>
+            <button class="carousel-btn next">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <!-- First Layer -->
+            <div class="about-layer">
+                <div class="about-left">
+                    <div class="about-intro">
+                        <p><strong>At ACADVENTURE, we make learning fun and engaging through hands-on educational games.</strong> We create board games, card decks, and other interactive tools that help teachers make lessons more interesting, exciting, and easier for students or users to learn and understand.</p>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <img src="ACADVENTURE LOGO.png" alt="Acadventure Logo" class="about-logo">
+                </div>
+            </div>
+            
+            <!-- Second Layer -->
+            <div class="about-layer">
+                <div class="about-left">
+                    <img src="Our Story.jpg" alt="Our Story" class="about-image">
+                </div>
+                <div class="about-right">
+                    <div class="about-story">
+                        <h3>Our Story</h3>
+                        <p>ACADVENTURE started with a simple goal: to make education feel less like a chore and more like an adventure. We saw how games could help students learn better, so we began creating tools that combine fun and learning in a meaningful and interactive way.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Third Layer -->
+            <div class="about-layer">
+                <div class="about-left">
+                    <div class="about-mission">
+                        <h3>Our Mission</h3>
+                        <p>To make learning more enjoyable and effective through fun and tangible game-based tools.</p>
+                    </div>
+                    <div class="about-vision">
+                        <h3>Our Vision</h3>
+                        <p>To turn classrooms into fun, engaging, and active spaces where students enjoy learning.</p>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <img src="Mission & Vision.jpg" alt="Mission & Vision" class="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="Products/Boardgame.PNG" alt="Board Game">
+                <p>Educational Board Games</p>
+            </div>
+            <div class="product-item">
+                <img src="Products/Cards.PNG" alt="Card Decks">
+                <p>Educational Card Decks</p>
+            </div>
+            <div class="product-item">
+                <img src="Products/Puzzle.PNG" alt="Puzzle Sets">
+                <p>Educational Puzzle Sets</p>
+            </div>
+            <div class="product-item">
+                <img src="Products/Kit.PNG" alt="Game Packs">
+                <p>Educational Game Packs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <div class="blog-list">
+            <div class="blog-item">
+                <img src="Blog/Play smart.jpg" alt="Play Smart">
+                <h3>Play Smart: How Unconventional Games Are Changing The Way We Learn</h3>
+            </div>
+            <div class="blog-item">
+                <img src="Blog/Redefining learning.jpg" alt="Redefining Learning">
+                <h3>Redefining Learning: The Rise of Unconventional Educational Games in Modern Classrooms</h3>
+            </div>
+            <div class="blog-item">
+                <img src="Blog/From bored to board.jpg" alt="From Bored to Board">
+                <h3>From Bored to Board: How These Games Reignited Classroom Excitement</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <img src="Contact Us.png" alt="Contact Us" class="contact-logo">
+                <div class="contact-info-text">
+                    <p><span>&#128222;</span> (123) 456-7890</p>
+                    <p><span>&#128205;</span> Muralla St, Intramuros, Manila,<br>1002 Metro Manila</p>
+                    <p>Follow us and keep updated!</p>
+                    <div class="social-icons">
+                        <img src="Follows/facebook.png" alt="Facebook" class="social-icon">
+                        <img src="Follows/twitter.png" alt="Twitter" class="social-icon">
+                        <img src="Follows/instagram.png" alt="Instagram" class="social-icon">
+                        <img src="Follows/tiktok.png" alt="TikTok" class="social-icon">
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Name" required>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" placeholder="Email Address" required>
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <span>Terms and Policies • Privacy Notice</span>
+            </div>
+            <div class="footer-center">
+                <span>&copy; Acadventure 2025</span>
+            </div>
+            <div class="footer-right app-badges">
+                <img src="Follows/AppStore.png" alt="Download on the App Store" class="app-badge">
+                <img src="Follows/Google.png" alt="Get it on Google Play" class="app-badge">
+                <img src="Follows/AppGallery.png" alt="Explore it on AppGallery" class="app-badge">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
